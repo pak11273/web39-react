@@ -1,6 +1,7 @@
 # web39-react
 WEB39 Starting a react App
 
+## Day 1
 1. Fork and clone repo
 2. npx create-react-app . (doing it this way will create the react app inside the current folder)
 
