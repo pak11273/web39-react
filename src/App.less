@@ -1,0 +1,40 @@
+// mixin
+.flexcolumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.flexrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+// variables
+@bg: seashell;
+@nav: seagreen;
+@border: 2px groove @nav;
+
+
+
+.App {
+    .flexcolumn();
+    background-color: @bg;
+
+    header {
+        background-color: @nav;
+        color: white;
+    }
+    .links {
+        padding: 1em;
+
+        .data {
+            .info {
+                border: @border;
+                margin: 1em;
+                text-align: center;
+            }
+        }
+    }
+}
