@@ -2,6 +2,7 @@ import React from 'react'
 
 import './App.css'
 import School from './components/schoolLink'
+import Notes from './components/notesLink'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
      </header>
     <div className='links'>
         <School />
+        <Notes />
     </div>
 
     </div>
