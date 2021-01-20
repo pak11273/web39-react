@@ -1,11 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-const SchoolLinks = (props) => {
+import data from './notes'
+import Link from './link'
+
+const NoteLinks = (props) => {
+    const [links] = useState(data)
+
     return (
         <>
-        <p>Notes</p>
+        <h2>Important School Links</h2>
+        <Link items={links} />
         </>
     )
 }
 
-export default SchoolLinks
+export default NoteLinks

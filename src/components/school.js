@@ -1,9 +1,9 @@
-[
+export default [
     {
         name: "Canvas Link",
-        url: "instructure.lambdaschool.com"},
+        url: "https://lambdaschool.instructure.com/"},
     {
         name: "Training Kit",
-        url: "learn.lambdaschool.com"
+        url: "https://learn.lambdaschool.com"
     }
 ]
