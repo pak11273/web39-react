@@ -28,8 +28,35 @@
     }
     .links {
         padding: 1em;
+        .flexcolumn();
 
+        h2 {
+            text-align: center;
+        }
         .data {
+            width: 200px;
+            
+            .info {
+                border: @border;
+                margin: 1em;
+                text-align: center;
+            }
+        }
+    }
+    .quotes {
+        padding: 1em;
+        .flexcolumn();
+
+        h2 {
+            text-align: center;
+        }
+        h3 {
+            text-align: center;
+        }
+        .data {
+            width: 400px;
+            padding: 1em;
+            
             .info {
                 border: @border;
                 margin: 1em;
