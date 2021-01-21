@@ -7,3 +7,7 @@ WEB39 Starting a react App
 
 Add the end of each mornings support hours I will push the changes up into that days branch.  The final version will be push to main.  
 Each morning before just pull from yesterdays branch to keep up to date.
+
+
+## Notes for part 1:
+https://hackmd.io/@melissa24/ryinB88kO

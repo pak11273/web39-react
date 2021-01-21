@@ -1,8 +1,9 @@
 import React from 'react'
-
 import './App.css'
+
 import School from './components/schoolLink'
 import Notes from './components/notesLink'
+import Quotes from './components/allQuotes'
 
 const App = () => {
   return (
@@ -14,7 +15,9 @@ const App = () => {
         <School />
         <Notes />
     </div>
-
+    <div className='quotes'>
+      <Quotes />
+    </div>
     </div>
   );
 };

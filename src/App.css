@@ -23,8 +23,40 @@
 }
 .App .links {
   padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.App .links h2 {
+  text-align: center;
+}
+.App .links .data {
+  width: 200px;
 }
 .App .links .data .info {
+  border: 2px groove seagreen;
+  margin: 1em;
+  text-align: center;
+}
+.App .quotes {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.App .quotes h2 {
+  text-align: center;
+}
+.App .quotes h3 {
+  text-align: center;
+}
+.App .quotes .data {
+  width: 400px;
+  padding: 1em;
+}
+.App .quotes .data .info {
   border: 2px groove seagreen;
   margin: 1em;
   text-align: center;

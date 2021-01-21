@@ -8,7 +8,7 @@ const NoteLinks = (props) => {
 
     return (
         <>
-        <h2>Important School Links</h2>
+        <h2>Notes Links</h2>
         <Link items={links} />
         </>
     )
