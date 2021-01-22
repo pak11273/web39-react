@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flexcolumn {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.flexrow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: seashell;
+}
+.App header {
+  background-color: seagreen;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.App .links {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App .links h2 {
+  text-align: center;
+}
+.App .links .data {
+  width: 200px;
+}
+.App .links .data .info {
+  border: 2px groove seagreen;
+  margin: 1em;
+  text-align: center;
+}
+.App .quotes {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.App .quotes h2 {
+  text-align: center;
+}
+.App .quotes h3 {
+  text-align: center;
+}
+.App .quotes .data {
+  width: 400px;
+  padding: 1em;
+}
+.App .quotes .data .info {
+  border: 2px groove seagreen;
+  margin: 1em;
+  text-align: center;
 }
