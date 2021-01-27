@@ -21,11 +21,10 @@ const AllQuotes = (props) => {
     console.log('quotes', quotes)
 
     return (
-        <>
+        <div className='quotes'>
         <h2>Random Quote</h2>
         <Quote quotes={quotes} />
-        {/* <p>{quote.quoteText}</p> */}
-        </>
+        </div>
     )
 }
 
