@@ -10,4 +10,7 @@ Each morning before just pull from yesterdays branch to keep up to date.
 
 
 ## Notes for part 1:
-https://hackmd.io/@melissa24/ryinB88kO
+https://hackmd.io/9HqSlmh-ScWINTJOCBt0BQ?view
+
+## Notes for part 2: 
+https://hackmd.io/Q6NUYghlQ9-mxvXRKjuCgA?view

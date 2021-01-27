@@ -11,6 +11,13 @@ const Form = () => {
         name: ''
     }
 
+    const [oldUser, setOldUser] = useState([
+        {
+            name: 'Melissa',
+            email: 'melissalongenberger24@gmail.com'
+        }
+    ])
+
     const [newUser, setNewUser] = useState(newUserForm)
 
 
@@ -33,6 +40,12 @@ const Form = () => {
     const submit = (e) => {
         e.preventDefault()
 
+        const trimNewUser = {
+            name: newUser.name.trim(),
+            email: newUser.email.trim(),
+        }
+
+        setOldUser([...oldUser, trimNewUser])
         setNewUser(newUserForm)
         console.log(newUser)
 
@@ -44,6 +57,7 @@ const Form = () => {
 
     return (
         <div className='quotes'>
+            <h3>ReqRes.in data</h3>
             {user.map(users => (
                 <div>
                     <p>{users.email}</p>
@@ -56,10 +70,15 @@ const Form = () => {
                 <label>Email</label>
                 <input name='email' value={newUser.email} onChange={handleChange} id='email' type='email' />
                 <button type='submit'>Submit</button>
-                    <>
-                    <p>{newUser.name}</p>
-                    <p>{newUser.email}</p>
-                    </>
+                {oldUser.map((item, index) => {
+                    return (
+                        <div key={index}>
+                            <h4>Our friends list</h4>
+                            <p>{item.name}</p>
+                            <p>{item.email}</p>
+                        </div>
+                    )
+                })}
             </form>
         </div>
     )
